@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MY CALENDAR</title>
+   
+    <style>
+        body {
+            background-color: lightsalmon;
+           
+        }
+        table {
+            font-family: cursive;
+            border-collapse: collapse;
+            color: white;
+            width: 45%;
+         
+            
+        }
+        td {
+            border: 1px solid white;
+            font-weight: bolder;
+            text-align: center;
+            padding: 10px;
+
+          
+            
+        }
+        th {
+            font-weight: lighter;
+
+        }
+
+        #cont {
+            display: flex;
+            align-items: center;
+        
+            gap: 3px;
+            margin: 100px;
+            padding: 10px;
+            font-family:cursive;
+        }
+        .image-container {
+            position: relative;
+        }
+        .image-container img {
+            width: 210px;
+            display: block;
+            padding: 7px;
+        }
+        #month-label {
+            font-family: cursive;
+            color: white;
+            font-size: x-large;
+            font-weight:bolder;
+            position:absolute;
+            bottom: -15px;
+            left: -6px;
+            padding: 5px;
+        }
+        #color td{
+          
+            border:  2px solid  lightsalmon;
+            border-width:1.4px;
+         height: 0px;
+         padding: 7px;
+         
+    
+           
+       
+          
+            
+
+        }
+        .container{
+            position: relative;
+            display: inline-block;
+        }
+        .foreground-text{
+            position: absolute;
+         font-size: x-small;
+            top: 0;
+            left: -8px;
+            color: white;
+            
+        }
+        .background-text{
+            color:white;
+            opacity: 0.4;
+        }
+    </style>
+</head>
+<body>
+    <div id="cont">
+        <div class="image-container">
+            <img src="IMG-20240116-WA0007.jpg" alt="pulsar boys image">
+            <div id="month-label">February</div>
+        </div>
+      <div id="color">
+            <table >
+                <tr>
+                    <td style="font-weight: lighter;font-size: smaller; background-color: palevioletred;">01</td>
+                </tr>
+
+                <tr>
+                    <td style="font-weight: bolder;font-size:x-large;background-color: lightsalmon;">02</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: lighter;font-size: smaller; background-color: lightseagreen;">03</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: lighter; font-size: smaller;background-color: lightskyblue;">04</td>
+                </tr>
+                <tr>
+                    <td  style="font-weight: lighter;font-size: smaller; background-color: lightgreen;">05</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: lighter;font-size: smaller; background-color: wheat;">06</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: lighter;font-size: smaller; background-color: rgb(250, 163, 163);">07</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: lighter;font-size: smaller; background-color: lightsteelblue;">08</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: lighter;font-size: smaller; background-color: goldenrod;">09</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: lighter;font-size: smaller; background-color: green;">10</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: lighter;font-size: smaller; background-color: purple;">11</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: lighter;font-size: smaller; background-color: darkcyan;">12</td>
+                </tr>
+            </table>
+       </div>
+        <table >
+            <thead>
+                <tr>
+                    <th>Sun</th>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                    <th>Sat</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                   <td style="font-weight: bolder; opacity: 0.3;"> 28</td>
+                    <td style="font-weight: bolder; opacity: 0.3;">29</td>
+                    <td style="font-weight: bolder; opacity: 0.3;">30</td>
+                    <td style="font-weight: bolder; opacity: 0.3;">31</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9 
+                  </td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td> 11
+                  </td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td><div class="container">
+                        <span class="background-text">14</span>
+                      <span class="foreground-text">Vasant panchami</span>
+                    </div></td>
+                    <td>15</td>
+                    <td>16</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td><div class="container">
+                        <span class="background-text">19</span>
+                      <span class="foreground-text"  >Sivaji jayanti</span>
+                    </div></td>
+                    <td>20</td>
+                    <td>21</td>
+                    <td> 22
+                  </td>
+                    <td>23</td>
+                    <td><div class="container">
+                        <span class="background-text">24</span>
+                      <span class="foreground-text"  >Ravidas jayanti</span>
+                    </div></td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>26</td>
+                    <td>27</td>
+                    <td >28</td>
+                    <td >29</td>
+                    <td style="font-weight: bolder; opacity: 0.3;">1</td>
+                    <td style="font-weight: bolder; opacity: 0.3;">2</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
